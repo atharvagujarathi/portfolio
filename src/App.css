@@ -1,38 +1,169 @@
+.footer {
+   /* display: table-row; */
+    bottom: 0;
+    /* height: 100vh; */
+    
+}
+
 .App {
-  text-align: center;
+    background-color: #212529;
+    color: #fff;
+    
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.intro {
+    display: table;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+:root {
+    /* overflow-x: hidden; */
+   background-color: #212529;
+   
+}
+
+/* .hrr {
+    margin-top: 50px;
+    width: 90%;
+    margin-left: 70px;
+    height: 2px;
+    color:#fff;
+    border-width:0;
+    background-color:#fff;
+}
+
+.hrrr {
+    width: 90%;
+    margin-left: 70px;
+    height: 2px;
+    color:#fff;
+    border-width:0;
+    background-color:#fff;
+
+} */
+
+
+
+.App::-webkit-scrollbar {
+    display: none;
+    
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+
+
+
+
+.carousel_h {
+    color: #333;
+    
+}
+
+.s {
+    height: 200px;
+}
+
+.c {
+    margin-top: -250px;
+    width: 50%;
+    height: 50%;
+}
+
+.educationtitle {
+    margin-top: 80px;
+}
+
+.e {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.ed {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+
+.w {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 150px;
+}
+
+.ew {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+
+
+
+
+@media screen and (max-width: 600px) {
+    
+    
+
+     .c {
+        width: 100%;
+        margin-top: 0px;
+    } 
+
+    /* .educationtitle {
+        margin-top: 20px;
+        margin-left: 0px;
+    } */
+   
+    
   }
-}
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
 
-.App-link {
-  color: #61dafb;
-}
+@media screen and (max-width: 600px) {
+    /* .w {
+    
+      width: 100%;
+      height: 190vh;
+      margin-top: 500px;
+      text-align: center;
+      justify-content: center;
+      
+    }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+    .ew {
+        margin-top: -520px;
+    } */
+  
+    
   }
-  to {
-    transform: rotate(360deg);
-  }
+
+
+
+  .p {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 170px;
+}
+
+.pre {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }

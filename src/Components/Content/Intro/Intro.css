@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sofia+Sans+Condensed:wght@800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rowdies&display=swap');
+
+
+i {
+    color: aliceblue;
+}
+
+.intro {
+    display: flex;
+    height: 100vh;
+    
+}
+
+.carousel_h {
+    color: aliceblue !important;
+    font-family: 'Rowdies', cursive;
+}
+
+.intro_button {
+    text-align: center;
+    justify-content: center;
+   
+   margin-top: 50px;
+}
+
+.cardgrp {
+    /* height: 80vh; */
+}
+
+.intro_header_brandname {
+    font-family: 'Cinzel', serif;
+}
+
+.intro_collapse {
+    margin-left: 30px;
+}
+
+.linkedin {
+    color:black
+}
+
+.github {
+    color:black
+}
+
+.intro_title1 {
+    color: aliceblue;
+    font-size: 25px;
+    padding-top: 50px;
+    
+}
+
+.intro_title2 {
+    color: aliceblue;
+    
+    font-weight: 500;
+    text-align: center;
+    font-family: 'Sofia Sans Condensed', sans-serif;
+    
+}
+
+.intro_title4 {
+    font-family: 'Roboto Slab', serif;
+    text-align: justify;
+    padding-top: 50px;
+    color: rgb(174, 179, 184);
+}
+
+.photu {
+    opacity: 1;
+}
+
+.carousel-indicators li {display: none;}

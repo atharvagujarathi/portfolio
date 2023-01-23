@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Rowdies&display=swap');
+
+.footer_mail {
+    text-decoration: none;
+    color: rgb(69, 66, 66);
+    font-size: 20px;
+}
+
+.footer_phone {
+    text-decoration: none;
+    color: rgb(69, 66, 66);
+    font-size: 20px;
+}
+
+.footerphn {
+    color: #333;
+}
+
+.footermail {
+    color: #333;
+}
+
+.footer  {
+    margin-top: 600px;
+    font-family: 'Rowdies', cursive;
+    
+}
+
+@media screen and (max-width: 600px) {
+    .footer {
+    
+      margin-top: 790vh;
+    }
+  
+    
+  }

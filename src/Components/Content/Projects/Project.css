@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cabin:ital,wght@1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rowdies&display=swap');
+.pro {
+    width: 30%;
+    height: 30%;
+    margin: 15px 8px;
+    margin-top: 20px;
+    
+    border-radius:  10px 10px 0px 0px;  
+
+    display: flex;
+    height: 80vh;
+}
+
+
+.pro_title{
+    /* margin-top: -320px; */
+    
+    display: flex;
+    height: 20vh;
+    margin-left: 40px;
+    color: aliceblue;
+    font-weight: 500;
+    font-family: 'Rowdies', cursive;
+}
+
+.pr_1 {
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+.q {
+  margin-top: 10px;
+}
+
+.photo2 {
+  height: 370px;
+  width: 100%;
+}
+
+.btnn {
+  margin: 10px;
+}
+
+.btnn1 {
+  margin: 10px;
+}
+
+.pe {
+  text-align: justify;
+}
+
+
+@media screen and (max-width: 600px) {
+  .pro {
+  
+    width: 85%;
+    margin-left: 30px;
+    padding: 10px;
+    height: 100vh;
+    /* margin-top: 5px; */
+    text-align: center;
+    justify-content: center;
+  }
+
+  .pro_title {
+    margin-top: 2300px;
+    margin-left: 30px;
+    color: aliceblue;
+    font-weight: 500;
+    font-family: 'Cabin', sans-serif;
+  }
+}
+
+
+
